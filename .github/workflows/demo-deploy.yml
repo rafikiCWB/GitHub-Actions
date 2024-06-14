@@ -4,10 +4,10 @@ on:
   workflow_call:
     inputs:
       variavel-demo: 
-      description: 'Descrição da sua variável'
-      required: true
-      type: string
-
+        description: 'Descrição da sua variável'
+        required: true
+        type: string
+  
 jobs:
   deploy:
     runs-on: ubuntu-latest
