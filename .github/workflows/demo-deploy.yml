@@ -1,7 +1,8 @@
 on:
   workflow_call:
     inputs:
-      variavel-demo: true
+      variavel-demo: 
+      required: true
       type: string
 
 jobs:
