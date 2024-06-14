@@ -38,6 +38,6 @@ jobs:
   deploy-dev:
    # This workflow contains a single job called "build"
     needs: build
-    user: rafiki.CWB/pipeline_templates/.github/workflows/demo-deploy.yml@main
+    uses: rafiki.CWB/GitHub-Actions/.github/workflows/demo-deploy.yml@main
     with:
       variavel-demo: "Demo Dev"
